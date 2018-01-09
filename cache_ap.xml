@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+    <name>System - Cache AP</name>
+    <author>Alex Pow</author>
+    <authorEmail>https://github.com/alex-pow</authorEmail>
+    <creationDate>Dec 2017</creationDate>
+    <license>https://opensource.org/licenses/MIT MIT License</license>
+    <version>0.1.0</version>
+    <description>Cache AP - Help caching data in files</description>
+    
+    <files>
+        <filename plugin="cache_ap">cache_ap.php</filename>
+        <filename plugin="cache_ap">cache_ap_core.php</filename>
+        <filename plugin="cache_ap">cache_ap.xml</filename>     
+    </files>
+</extension>
